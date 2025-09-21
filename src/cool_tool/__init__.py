@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hellooo from cool-tool!")
+__version__ = "0.1.0"
