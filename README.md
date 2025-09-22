@@ -1,11 +1,14 @@
 A python CLI tool for managing convinient code snippets. 
 Build with Typer and UV as dependency manager. 
 
-# Make an alias, to avoid typing out the full name:
+# Make an alias, to avoid typing out the full name (when developing):
 ct='uv run cool-tool'
 
-To build the package do:
+To build the package:
 `uv build`
+
+To install the package:
+`uv pip install .`
 
 To run uv as shell (useful when doing development):
 `uv tool install . -e`
